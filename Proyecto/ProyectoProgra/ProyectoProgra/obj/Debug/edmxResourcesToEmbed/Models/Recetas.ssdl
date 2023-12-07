@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProyectoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TAB_CATEGORIAS">
+    <Key>
+      <PropertyRef Name="ID_CATEGORIA" />
+    </Key>
+    <Property Name="ID_CATEGORIA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CATEGORIA" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="TAB_ESTADO">
+    <Key>
+      <PropertyRef Name="ID_ESTADO" />
+    </Key>
+    <Property Name="ID_ESTADO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="TAB_IMAGENES">
+    <Key>
+      <PropertyRef Name="ID_IMAGEN" />
+    </Key>
+    <Property Name="ID_IMAGEN" Type="int" Nullable="false" />
+    <Property Name="COD_RECETA" Type="int" />
+    <Property Name="FILA_NAME" Type="nchar" MaxLength="100" />
+    <Property Name="IMAGEN" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TAB_INGREDIENTES">
+    <Key>
+      <PropertyRef Name="ID_INGREDIENTES" />
+    </Key>
+    <Property Name="ID_INGREDIENTES" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="COD_RECETA" Type="int" />
+    <Property Name="INGREDIENTES" Type="nchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="TAB_INSTRUCCIONES">
+    <Key>
+      <PropertyRef Name="ID_INSTRUCCIONES" />
+    </Key>
+    <Property Name="ID_INSTRUCCIONES" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="COD_RECETA" Type="int" />
+    <Property Name="INSTRUCCIONES" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="TAB_RECETAS">
+    <Key>
+      <PropertyRef Name="COD_RECETA" />
+    </Key>
+    <Property Name="COD_RECETA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOM_RECETA" Type="nchar" MaxLength="100" />
+    <Property Name="ID_CATEGORIA" Type="int" />
+    <Property Name="DURACION" Type="nchar" MaxLength="100" />
+    <Property Name="PORCIONES" Type="nchar" MaxLength="100" />
+    <Property Name="ID_TAGS" Type="int" />
+    <Property Name="ID_ESTADO" Type="int" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="128" />
+    <Property Name="FECHA_CREACION" Type="nchar" MaxLength="100" />
+    <Property Name="FECHA_MODIFICACION" Type="nchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="TAB_TAGS">
+    <Key>
+      <PropertyRef Name="ID_TAGS" />
+    </Key>
+    <Property Name="ID_TAGS" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TAGS" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_TAB_IMAGENES_TAB_RECETAS">
+    <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+    <End Role="TAB_IMAGENES" Type="Self.TAB_IMAGENES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAB_RECETAS">
+        <PropertyRef Name="COD_RECETA" />
+      </Principal>
+      <Dependent Role="TAB_IMAGENES">
+        <PropertyRef Name="COD_RECETA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TAB_INGREDIENTES_TAB_RECETAS">
+    <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+    <End Role="TAB_INGREDIENTES" Type="Self.TAB_INGREDIENTES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAB_RECETAS">
+        <PropertyRef Name="COD_RECETA" />
+      </Principal>
+      <Dependent Role="TAB_INGREDIENTES">
+        <PropertyRef Name="COD_RECETA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TAB_INSTRUCCIONES_TAB_RECETAS">
+    <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+    <End Role="TAB_INSTRUCCIONES" Type="Self.TAB_INSTRUCCIONES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAB_RECETAS">
+        <PropertyRef Name="COD_RECETA" />
+      </Principal>
+      <Dependent Role="TAB_INSTRUCCIONES">
+        <PropertyRef Name="COD_RECETA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TAB_RECETAS_TAB_CATEGORIAS">
+    <End Role="TAB_CATEGORIAS" Type="Self.TAB_CATEGORIAS" Multiplicity="0..1" />
+    <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAB_CATEGORIAS">
+        <PropertyRef Name="ID_CATEGORIA" />
+      </Principal>
+      <Dependent Role="TAB_RECETAS">
+        <PropertyRef Name="ID_CATEGORIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TAB_RECETAS_TAB_ESTADO1">
+    <End Role="TAB_ESTADO" Type="Self.TAB_ESTADO" Multiplicity="0..1" />
+    <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAB_ESTADO">
+        <PropertyRef Name="ID_ESTADO" />
+      </Principal>
+      <Dependent Role="TAB_RECETAS">
+        <PropertyRef Name="ID_ESTADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TAB_RECETAS_TAB_TAGS1">
+    <End Role="TAB_TAGS" Type="Self.TAB_TAGS" Multiplicity="0..1" />
+    <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAB_TAGS">
+        <PropertyRef Name="ID_TAGS" />
+      </Principal>
+      <Dependent Role="TAB_RECETAS">
+        <PropertyRef Name="ID_TAGS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProyectoModelStoreContainer">
+    <EntitySet Name="TAB_CATEGORIAS" EntityType="Self.TAB_CATEGORIAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAB_ESTADO" EntityType="Self.TAB_ESTADO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAB_IMAGENES" EntityType="Self.TAB_IMAGENES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAB_INGREDIENTES" EntityType="Self.TAB_INGREDIENTES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAB_INSTRUCCIONES" EntityType="Self.TAB_INSTRUCCIONES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAB_RECETAS" EntityType="Self.TAB_RECETAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAB_TAGS" EntityType="Self.TAB_TAGS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TAB_IMAGENES_TAB_RECETAS" Association="Self.FK_TAB_IMAGENES_TAB_RECETAS">
+      <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+      <End Role="TAB_IMAGENES" EntitySet="TAB_IMAGENES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TAB_INGREDIENTES_TAB_RECETAS" Association="Self.FK_TAB_INGREDIENTES_TAB_RECETAS">
+      <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+      <End Role="TAB_INGREDIENTES" EntitySet="TAB_INGREDIENTES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TAB_INSTRUCCIONES_TAB_RECETAS" Association="Self.FK_TAB_INSTRUCCIONES_TAB_RECETAS">
+      <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+      <End Role="TAB_INSTRUCCIONES" EntitySet="TAB_INSTRUCCIONES" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TAB_RECETAS_TAB_CATEGORIAS" Association="Self.FK_TAB_RECETAS_TAB_CATEGORIAS">
+      <End Role="TAB_CATEGORIAS" EntitySet="TAB_CATEGORIAS" />
+      <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TAB_RECETAS_TAB_ESTADO1" Association="Self.FK_TAB_RECETAS_TAB_ESTADO1">
+      <End Role="TAB_ESTADO" EntitySet="TAB_ESTADO" />
+      <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TAB_RECETAS_TAB_TAGS1" Association="Self.FK_TAB_RECETAS_TAB_TAGS1">
+      <End Role="TAB_TAGS" EntitySet="TAB_TAGS" />
+      <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

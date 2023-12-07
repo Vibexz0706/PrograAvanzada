@@ -1,0 +1,240 @@
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\ProyectoProgra.dll.config
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\ProyectoProgra.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\ProyectoProgra.pdb
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csc.exe
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csc.exe.config
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csc.rsp
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csi.exe
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csi.exe.config
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csi.rsp
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.AppContext.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Console.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.Compression.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Net.Http.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Net.Sockets.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.ValueTuple.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.XPath.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\vbc.exe
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\vbc.exe.config
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\vbc.rsp
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\VBCSCompiler.exe
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Antlr3.Runtime.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.SqlServer.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Newtonsoft.Json.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Owin.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Helpers.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Mvc.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Optimization.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Razor.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Deployment.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Razor.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\WebGrease.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Helpers.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Mvc.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Optimization.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Razor.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Deployment.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Razor.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Newtonsoft.Json.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Antlr3.Runtime.pdb
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.SqlServer.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Helpers.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Mvc.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Optimization.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Razor.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.WebPages.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.AssemblyReference.cache
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.CoreCompileInputs.cache
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.CopyComplete
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.dll
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.pdb
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.Migrations.Roles.resources
+C:\Users\julif\Desktop\PROGRA AVANZADA\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.GenerateResource.cache
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\ProyectoProgra.dll.config
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\ProyectoProgra.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\ProyectoProgra.pdb
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csc.exe
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csc.exe.config
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csc.rsp
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csi.exe
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csi.exe.config
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\csi.rsp
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.AppContext.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Collections.Immutable.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Console.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Globalization.Calendars.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.Compression.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.FileSystem.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Net.Http.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Net.Sockets.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Reflection.Metadata.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.ValueTuple.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.XPath.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\vbc.exe
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\vbc.exe.config
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\vbc.rsp
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\VBCSCompiler.exe
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\roslyn\VBCSCompiler.exe.config
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Antlr3.Runtime.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.SqlServer.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Google.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Web.Infrastructure.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Newtonsoft.Json.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Owin.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Helpers.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Mvc.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Optimization.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Razor.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Deployment.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Razor.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\WebGrease.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Helpers.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Mvc.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Optimization.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.Razor.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Deployment.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\System.Web.WebPages.Razor.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Newtonsoft.Json.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Antlr3.Runtime.pdb
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\EntityFramework.SqlServer.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Google.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Helpers.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Mvc.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Optimization.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.Razor.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.WebPages.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.AssemblyReference.cache
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.Migrations.Roles.resources
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.GenerateResource.cache
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.CoreCompileInputs.cache
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.csproj.CopyComplete
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.dll
+D:\Cuatri 6\Progra avanzada\Proyecto\PrograAvanzada\PrograAvanzada\Proyecto\ProyectoProgra\ProyectoProgra\obj\Debug\ProyectoProgra.pdb

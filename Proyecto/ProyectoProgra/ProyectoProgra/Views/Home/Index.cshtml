@@ -1,0 +1,148 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<br />
+<div class="jumbotron text-center">
+    <h1 class="display-4">¡Bienvenido a Cooking School!</h1>
+    <br />
+    <p class="lead">
+        Descubre la excelencia culinaria en la principal Escuela de Cocina de Centroamérica, respaldada por la prestigiosa Chaîne des Rôtisseurs.
+    </p>
+    <p>
+        Embárcate en una experiencia única donde la pasión por la gastronomía se encuentra con la creatividad. En Cooking School, te sumergirás en el fascinante mundo culinario y desarrollarás habilidades que van más allá de la cocina.
+    </p>
+    <p>
+        Nuestros planes de estudios están especialmente diseñados para emprendedores y amantes de la gastronomía innovadora. Aquí, no solo aprenderás las técnicas culinarias de clase mundial, sino que también cultivarás tu propio estilo y enfoque único en la cocina.
+    </p>
+    <p class="lead">
+        ¿Sueñas con convertirte en un chef emprendedor? En Cooking School, nuestros programas están diseñados para nutrir tu talento y desarrollar las habilidades esenciales necesarias para destacar en la industria gastronómica.
+    </p>
+    <br />
+    <br />
+    <a class="btn btn-primary btn-lg" href="@Url.Action("Register", "Account")" role="button">¡Regístrate!</a>
+</div>
+<br />
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="~/images/Imagen-Portada1.jpg" alt="Imagen-Portada1" width="400" height="300" />
+        </div>
+        <div class="col-md-4">
+            <img src="~/images/Imagen-Portada2.jpg" alt="Imagen-Portada2" width="400" height="300" />
+        </div>
+        <div class="col-md-4">
+            <img src="~/images/Imagen-Portada3.jpg" alt="Imagen-Portada3" width="400" height="300" />
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<h3 class="text-center">5 razones para llevar nuestras clases</h3>
+<br />
+<div class="row">
+    <div class="col-md-6">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Descubre la auténtica pasión culinaria</h5>
+                <p class="card-text">Sumérgete en un mundo de sabores y técnicas culinarias que despertarán tu verdadera pasión por la cocina.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Aprende de chefs expertos</h5>
+                <p class="card-text">Nuestros cursos son impartidos por chefs con experiencia, brindándote conocimientos prácticos y consejos de la vida real.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-md-6">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Desarrolla tu creatividad en la cocina</h5>
+                <p class="card-text">No solo aprenderás recetas, sino que también cultivarás tu creatividad y habilidades para crear platos únicos y emocionantes.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Conéctate con otros entusiastas de la cocina</h5>
+                <p class="card-text">Únete a una comunidad apasionada de amantes de la cocina, comparte experiencias y crea amistades duraderas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12 mt-3">
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Prepara el camino hacia una carrera culinaria exitosa</h5>
+                <p class="card-text">Si sueñas con convertirte en chef profesional o emprender en el mundo gastronómico, nuestras clases te proporcionarán las habilidades esenciales y el impulso necesario.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+        </div>
+    </section>
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>Cooking School
+                    </h6>
+                    <p>
+                        En Cooking School, nos apasiona la creación culinaria y la enseñanza de las mejores técnicas gastronómicas.
+                        Explora nuestro mundo culinario, donde la innovación se combina con la tradición, y descubre el arte de la cocina de la mano de nuestros talentosos chefs.
+                        Sumérgete en una experiencia única y haz de cada plato una obra maestra. ¡Bienvenido a la escuela donde la pasión por la cocina cobra vida!
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Social Media
+                    </h6>
+                    <p>
+                        <a href="https://www.facebook.com/" class="text-reset">Facebook</a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/" class="text-reset">Instagram</a>
+                    </p>
+                    <p>
+                        <a href="https://twitter.com/" class="text-reset">Twitter</a>
+                    </p>
+                    <p>
+                        <a href="@Url.Action("About", "Home")" class="text-reset">About Us</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3"></i> Costa Rica, San José</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+</footer>

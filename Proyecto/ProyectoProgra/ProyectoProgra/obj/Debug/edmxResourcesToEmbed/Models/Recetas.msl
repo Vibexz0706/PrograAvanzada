@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProyectoModelStoreContainer" CdmEntityContainer="ProyectoEntities2">
+    <EntitySetMapping Name="TAB_CATEGORIAS">
+      <EntityTypeMapping TypeName="ProyectoModel.TAB_CATEGORIAS">
+        <MappingFragment StoreEntitySet="TAB_CATEGORIAS">
+          <ScalarProperty Name="ID_CATEGORIA" ColumnName="ID_CATEGORIA" />
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAB_ESTADO">
+      <EntityTypeMapping TypeName="ProyectoModel.TAB_ESTADO">
+        <MappingFragment StoreEntitySet="TAB_ESTADO">
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAB_IMAGENES">
+      <EntityTypeMapping TypeName="ProyectoModel.TAB_IMAGENES">
+        <MappingFragment StoreEntitySet="TAB_IMAGENES">
+          <ScalarProperty Name="ID_IMAGEN" ColumnName="ID_IMAGEN" />
+          <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+          <ScalarProperty Name="FILA_NAME" ColumnName="FILA_NAME" />
+          <ScalarProperty Name="IMAGEN" ColumnName="IMAGEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAB_INGREDIENTES">
+      <EntityTypeMapping TypeName="ProyectoModel.TAB_INGREDIENTES">
+        <MappingFragment StoreEntitySet="TAB_INGREDIENTES">
+          <ScalarProperty Name="ID_INGREDIENTES" ColumnName="ID_INGREDIENTES" />
+          <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+          <ScalarProperty Name="INGREDIENTES" ColumnName="INGREDIENTES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAB_INSTRUCCIONES">
+      <EntityTypeMapping TypeName="ProyectoModel.TAB_INSTRUCCIONES">
+        <MappingFragment StoreEntitySet="TAB_INSTRUCCIONES">
+          <ScalarProperty Name="ID_INSTRUCCIONES" ColumnName="ID_INSTRUCCIONES" />
+          <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+          <ScalarProperty Name="INSTRUCCIONES" ColumnName="INSTRUCCIONES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAB_RECETAS">
+      <EntityTypeMapping TypeName="ProyectoModel.TAB_RECETAS">
+        <MappingFragment StoreEntitySet="TAB_RECETAS">
+          <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+          <ScalarProperty Name="NOM_RECETA" ColumnName="NOM_RECETA" />
+          <ScalarProperty Name="ID_CATEGORIA" ColumnName="ID_CATEGORIA" />
+          <ScalarProperty Name="DURACION" ColumnName="DURACION" />
+          <ScalarProperty Name="PORCIONES" ColumnName="PORCIONES" />
+          <ScalarProperty Name="ID_TAGS" ColumnName="ID_TAGS" />
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="FECHA_MODIFICACION" ColumnName="FECHA_MODIFICACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAB_TAGS">
+      <EntityTypeMapping TypeName="ProyectoModel.TAB_TAGS">
+        <MappingFragment StoreEntitySet="TAB_TAGS">
+          <ScalarProperty Name="ID_TAGS" ColumnName="ID_TAGS" />
+          <ScalarProperty Name="TAGS" ColumnName="TAGS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

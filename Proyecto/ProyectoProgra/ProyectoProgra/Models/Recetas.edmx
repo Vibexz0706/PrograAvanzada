@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ProyectoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TAB_CATEGORIAS">
+          <Key>
+            <PropertyRef Name="ID_CATEGORIA" />
+          </Key>
+          <Property Name="ID_CATEGORIA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CATEGORIA" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="TAB_ESTADO">
+          <Key>
+            <PropertyRef Name="ID_ESTADO" />
+          </Key>
+          <Property Name="ID_ESTADO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ESTADO" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="TAB_IMAGENES">
+          <Key>
+            <PropertyRef Name="ID_IMAGEN" />
+          </Key>
+          <Property Name="ID_IMAGEN" Type="int" Nullable="false" />
+          <Property Name="COD_RECETA" Type="int" />
+          <Property Name="FILA_NAME" Type="nchar" MaxLength="100" />
+          <Property Name="IMAGEN" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TAB_INGREDIENTES">
+          <Key>
+            <PropertyRef Name="ID_INGREDIENTES" />
+          </Key>
+          <Property Name="ID_INGREDIENTES" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="COD_RECETA" Type="int" />
+          <Property Name="INGREDIENTES" Type="nchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="TAB_INSTRUCCIONES">
+          <Key>
+            <PropertyRef Name="ID_INSTRUCCIONES" />
+          </Key>
+          <Property Name="ID_INSTRUCCIONES" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="COD_RECETA" Type="int" />
+          <Property Name="INSTRUCCIONES" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="TAB_RECETAS">
+          <Key>
+            <PropertyRef Name="COD_RECETA" />
+          </Key>
+          <Property Name="COD_RECETA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOM_RECETA" Type="nchar" MaxLength="100" />
+          <Property Name="ID_CATEGORIA" Type="int" />
+          <Property Name="DURACION" Type="nchar" MaxLength="100" />
+          <Property Name="PORCIONES" Type="nchar" MaxLength="100" />
+          <Property Name="ID_TAGS" Type="int" />
+          <Property Name="ID_ESTADO" Type="int" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="128" />
+          <Property Name="FECHA_CREACION" Type="nchar" MaxLength="100" />
+          <Property Name="FECHA_MODIFICACION" Type="nchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="TAB_TAGS">
+          <Key>
+            <PropertyRef Name="ID_TAGS" />
+          </Key>
+          <Property Name="ID_TAGS" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TAGS" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <Association Name="FK_TAB_IMAGENES_TAB_RECETAS">
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+          <End Role="TAB_IMAGENES" Type="Self.TAB_IMAGENES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_RECETAS">
+              <PropertyRef Name="COD_RECETA" />
+            </Principal>
+            <Dependent Role="TAB_IMAGENES">
+              <PropertyRef Name="COD_RECETA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_INGREDIENTES_TAB_RECETAS">
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+          <End Role="TAB_INGREDIENTES" Type="Self.TAB_INGREDIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_RECETAS">
+              <PropertyRef Name="COD_RECETA" />
+            </Principal>
+            <Dependent Role="TAB_INGREDIENTES">
+              <PropertyRef Name="COD_RECETA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_INSTRUCCIONES_TAB_RECETAS">
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+          <End Role="TAB_INSTRUCCIONES" Type="Self.TAB_INSTRUCCIONES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_RECETAS">
+              <PropertyRef Name="COD_RECETA" />
+            </Principal>
+            <Dependent Role="TAB_INSTRUCCIONES">
+              <PropertyRef Name="COD_RECETA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_RECETAS_TAB_CATEGORIAS">
+          <End Role="TAB_CATEGORIAS" Type="Self.TAB_CATEGORIAS" Multiplicity="0..1" />
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_CATEGORIAS">
+              <PropertyRef Name="ID_CATEGORIA" />
+            </Principal>
+            <Dependent Role="TAB_RECETAS">
+              <PropertyRef Name="ID_CATEGORIA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_RECETAS_TAB_ESTADO1">
+          <End Role="TAB_ESTADO" Type="Self.TAB_ESTADO" Multiplicity="0..1" />
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_ESTADO">
+              <PropertyRef Name="ID_ESTADO" />
+            </Principal>
+            <Dependent Role="TAB_RECETAS">
+              <PropertyRef Name="ID_ESTADO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_RECETAS_TAB_TAGS1">
+          <End Role="TAB_TAGS" Type="Self.TAB_TAGS" Multiplicity="0..1" />
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_TAGS">
+              <PropertyRef Name="ID_TAGS" />
+            </Principal>
+            <Dependent Role="TAB_RECETAS">
+              <PropertyRef Name="ID_TAGS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProyectoModelStoreContainer">
+          <EntitySet Name="TAB_CATEGORIAS" EntityType="Self.TAB_CATEGORIAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TAB_ESTADO" EntityType="Self.TAB_ESTADO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TAB_IMAGENES" EntityType="Self.TAB_IMAGENES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TAB_INGREDIENTES" EntityType="Self.TAB_INGREDIENTES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TAB_INSTRUCCIONES" EntityType="Self.TAB_INSTRUCCIONES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TAB_RECETAS" EntityType="Self.TAB_RECETAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TAB_TAGS" EntityType="Self.TAB_TAGS" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TAB_IMAGENES_TAB_RECETAS" Association="Self.FK_TAB_IMAGENES_TAB_RECETAS">
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+            <End Role="TAB_IMAGENES" EntitySet="TAB_IMAGENES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_INGREDIENTES_TAB_RECETAS" Association="Self.FK_TAB_INGREDIENTES_TAB_RECETAS">
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+            <End Role="TAB_INGREDIENTES" EntitySet="TAB_INGREDIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_INSTRUCCIONES_TAB_RECETAS" Association="Self.FK_TAB_INSTRUCCIONES_TAB_RECETAS">
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+            <End Role="TAB_INSTRUCCIONES" EntitySet="TAB_INSTRUCCIONES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_RECETAS_TAB_CATEGORIAS" Association="Self.FK_TAB_RECETAS_TAB_CATEGORIAS">
+            <End Role="TAB_CATEGORIAS" EntitySet="TAB_CATEGORIAS" />
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_RECETAS_TAB_ESTADO1" Association="Self.FK_TAB_RECETAS_TAB_ESTADO1">
+            <End Role="TAB_ESTADO" EntitySet="TAB_ESTADO" />
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_RECETAS_TAB_TAGS1" Association="Self.FK_TAB_RECETAS_TAB_TAGS1">
+            <End Role="TAB_TAGS" EntitySet="TAB_TAGS" />
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProyectoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TAB_CATEGORIAS">
+          <Key>
+            <PropertyRef Name="ID_CATEGORIA" />
+          </Key>
+          <Property Name="ID_CATEGORIA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CATEGORIA" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="TAB_RECETAS" Relationship="Self.FK_TAB_RECETAS_TAB_CATEGORIAS" FromRole="TAB_CATEGORIAS" ToRole="TAB_RECETAS" />
+        </EntityType>
+        <EntityType Name="TAB_ESTADO">
+          <Key>
+            <PropertyRef Name="ID_ESTADO" />
+          </Key>
+          <Property Name="ID_ESTADO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ESTADO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="TAB_RECETAS" Relationship="Self.FK_TAB_RECETAS_TAB_ESTADO1" FromRole="TAB_ESTADO" ToRole="TAB_RECETAS" />
+        </EntityType>
+        <EntityType Name="TAB_IMAGENES">
+          <Key>
+            <PropertyRef Name="ID_IMAGEN" />
+          </Key>
+          <Property Name="ID_IMAGEN" Type="Int32" Nullable="false" />
+          <Property Name="COD_RECETA" Type="Int32" />
+          <Property Name="FILA_NAME" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="IMAGEN" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="TAB_RECETAS" Relationship="Self.FK_TAB_IMAGENES_TAB_RECETAS" FromRole="TAB_IMAGENES" ToRole="TAB_RECETAS" />
+        </EntityType>
+        <EntityType Name="TAB_INGREDIENTES">
+          <Key>
+            <PropertyRef Name="ID_INGREDIENTES" />
+          </Key>
+          <Property Name="ID_INGREDIENTES" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="COD_RECETA" Type="Int32" />
+          <Property Name="INGREDIENTES" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="TAB_RECETAS" Relationship="Self.FK_TAB_INGREDIENTES_TAB_RECETAS" FromRole="TAB_INGREDIENTES" ToRole="TAB_RECETAS" />
+        </EntityType>
+        <EntityType Name="TAB_INSTRUCCIONES">
+          <Key>
+            <PropertyRef Name="ID_INSTRUCCIONES" />
+          </Key>
+          <Property Name="ID_INSTRUCCIONES" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="COD_RECETA" Type="Int32" />
+          <Property Name="INSTRUCCIONES" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="TAB_RECETAS" Relationship="Self.FK_TAB_INSTRUCCIONES_TAB_RECETAS" FromRole="TAB_INSTRUCCIONES" ToRole="TAB_RECETAS" />
+        </EntityType>
+        <EntityType Name="TAB_RECETAS">
+          <Key>
+            <PropertyRef Name="COD_RECETA" />
+          </Key>
+          <Property Name="COD_RECETA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOM_RECETA" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="ID_CATEGORIA" Type="Int32" />
+          <Property Name="DURACION" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="PORCIONES" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="ID_TAGS" Type="Int32" />
+          <Property Name="ID_ESTADO" Type="Int32" />
+          <Property Name="UserName" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="FECHA_CREACION" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="FECHA_MODIFICACION" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="TAB_CATEGORIAS" Relationship="Self.FK_TAB_RECETAS_TAB_CATEGORIAS" FromRole="TAB_RECETAS" ToRole="TAB_CATEGORIAS" />
+          <NavigationProperty Name="TAB_ESTADO" Relationship="Self.FK_TAB_RECETAS_TAB_ESTADO1" FromRole="TAB_RECETAS" ToRole="TAB_ESTADO" />
+          <NavigationProperty Name="TAB_IMAGENES" Relationship="Self.FK_TAB_IMAGENES_TAB_RECETAS" FromRole="TAB_RECETAS" ToRole="TAB_IMAGENES" />
+          <NavigationProperty Name="TAB_INGREDIENTES" Relationship="Self.FK_TAB_INGREDIENTES_TAB_RECETAS" FromRole="TAB_RECETAS" ToRole="TAB_INGREDIENTES" />
+          <NavigationProperty Name="TAB_INSTRUCCIONES" Relationship="Self.FK_TAB_INSTRUCCIONES_TAB_RECETAS" FromRole="TAB_RECETAS" ToRole="TAB_INSTRUCCIONES" />
+          <NavigationProperty Name="TAB_TAGS" Relationship="Self.FK_TAB_RECETAS_TAB_TAGS1" FromRole="TAB_RECETAS" ToRole="TAB_TAGS" />
+        </EntityType>
+        <EntityType Name="TAB_TAGS">
+          <Key>
+            <PropertyRef Name="ID_TAGS" />
+          </Key>
+          <Property Name="ID_TAGS" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TAGS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="TAB_RECETAS" Relationship="Self.FK_TAB_RECETAS_TAB_TAGS1" FromRole="TAB_TAGS" ToRole="TAB_RECETAS" />
+        </EntityType>
+        <Association Name="FK_TAB_RECETAS_TAB_CATEGORIAS">
+          <End Role="TAB_CATEGORIAS" Type="Self.TAB_CATEGORIAS" Multiplicity="0..1" />
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_CATEGORIAS">
+              <PropertyRef Name="ID_CATEGORIA" />
+            </Principal>
+            <Dependent Role="TAB_RECETAS">
+              <PropertyRef Name="ID_CATEGORIA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_RECETAS_TAB_ESTADO1">
+          <End Role="TAB_ESTADO" Type="Self.TAB_ESTADO" Multiplicity="0..1" />
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_ESTADO">
+              <PropertyRef Name="ID_ESTADO" />
+            </Principal>
+            <Dependent Role="TAB_RECETAS">
+              <PropertyRef Name="ID_ESTADO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_IMAGENES_TAB_RECETAS">
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+          <End Role="TAB_IMAGENES" Type="Self.TAB_IMAGENES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_RECETAS">
+              <PropertyRef Name="COD_RECETA" />
+            </Principal>
+            <Dependent Role="TAB_IMAGENES">
+              <PropertyRef Name="COD_RECETA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_INGREDIENTES_TAB_RECETAS">
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+          <End Role="TAB_INGREDIENTES" Type="Self.TAB_INGREDIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_RECETAS">
+              <PropertyRef Name="COD_RECETA" />
+            </Principal>
+            <Dependent Role="TAB_INGREDIENTES">
+              <PropertyRef Name="COD_RECETA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_INSTRUCCIONES_TAB_RECETAS">
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="0..1" />
+          <End Role="TAB_INSTRUCCIONES" Type="Self.TAB_INSTRUCCIONES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_RECETAS">
+              <PropertyRef Name="COD_RECETA" />
+            </Principal>
+            <Dependent Role="TAB_INSTRUCCIONES">
+              <PropertyRef Name="COD_RECETA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TAB_RECETAS_TAB_TAGS1">
+          <End Role="TAB_TAGS" Type="Self.TAB_TAGS" Multiplicity="0..1" />
+          <End Role="TAB_RECETAS" Type="Self.TAB_RECETAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TAB_TAGS">
+              <PropertyRef Name="ID_TAGS" />
+            </Principal>
+            <Dependent Role="TAB_RECETAS">
+              <PropertyRef Name="ID_TAGS" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProyectoEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TAB_CATEGORIAS" EntityType="Self.TAB_CATEGORIAS" />
+          <EntitySet Name="TAB_ESTADO" EntityType="Self.TAB_ESTADO" />
+          <EntitySet Name="TAB_IMAGENES" EntityType="Self.TAB_IMAGENES" />
+          <EntitySet Name="TAB_INGREDIENTES" EntityType="Self.TAB_INGREDIENTES" />
+          <EntitySet Name="TAB_INSTRUCCIONES" EntityType="Self.TAB_INSTRUCCIONES" />
+          <EntitySet Name="TAB_RECETAS" EntityType="Self.TAB_RECETAS" />
+          <EntitySet Name="TAB_TAGS" EntityType="Self.TAB_TAGS" />
+          <AssociationSet Name="FK_TAB_RECETAS_TAB_CATEGORIAS" Association="Self.FK_TAB_RECETAS_TAB_CATEGORIAS">
+            <End Role="TAB_CATEGORIAS" EntitySet="TAB_CATEGORIAS" />
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_RECETAS_TAB_ESTADO1" Association="Self.FK_TAB_RECETAS_TAB_ESTADO1">
+            <End Role="TAB_ESTADO" EntitySet="TAB_ESTADO" />
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_IMAGENES_TAB_RECETAS" Association="Self.FK_TAB_IMAGENES_TAB_RECETAS">
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+            <End Role="TAB_IMAGENES" EntitySet="TAB_IMAGENES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_INGREDIENTES_TAB_RECETAS" Association="Self.FK_TAB_INGREDIENTES_TAB_RECETAS">
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+            <End Role="TAB_INGREDIENTES" EntitySet="TAB_INGREDIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_INSTRUCCIONES_TAB_RECETAS" Association="Self.FK_TAB_INSTRUCCIONES_TAB_RECETAS">
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+            <End Role="TAB_INSTRUCCIONES" EntitySet="TAB_INSTRUCCIONES" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TAB_RECETAS_TAB_TAGS1" Association="Self.FK_TAB_RECETAS_TAB_TAGS1">
+            <End Role="TAB_TAGS" EntitySet="TAB_TAGS" />
+            <End Role="TAB_RECETAS" EntitySet="TAB_RECETAS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProyectoModelStoreContainer" CdmEntityContainer="ProyectoEntities2">
+          <EntitySetMapping Name="TAB_CATEGORIAS">
+            <EntityTypeMapping TypeName="ProyectoModel.TAB_CATEGORIAS">
+              <MappingFragment StoreEntitySet="TAB_CATEGORIAS">
+                <ScalarProperty Name="ID_CATEGORIA" ColumnName="ID_CATEGORIA" />
+                <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TAB_ESTADO">
+            <EntityTypeMapping TypeName="ProyectoModel.TAB_ESTADO">
+              <MappingFragment StoreEntitySet="TAB_ESTADO">
+                <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TAB_IMAGENES">
+            <EntityTypeMapping TypeName="ProyectoModel.TAB_IMAGENES">
+              <MappingFragment StoreEntitySet="TAB_IMAGENES">
+                <ScalarProperty Name="ID_IMAGEN" ColumnName="ID_IMAGEN" />
+                <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+                <ScalarProperty Name="FILA_NAME" ColumnName="FILA_NAME" />
+                <ScalarProperty Name="IMAGEN" ColumnName="IMAGEN" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TAB_INGREDIENTES">
+            <EntityTypeMapping TypeName="ProyectoModel.TAB_INGREDIENTES">
+              <MappingFragment StoreEntitySet="TAB_INGREDIENTES">
+                <ScalarProperty Name="ID_INGREDIENTES" ColumnName="ID_INGREDIENTES" />
+                <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+                <ScalarProperty Name="INGREDIENTES" ColumnName="INGREDIENTES" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TAB_INSTRUCCIONES">
+            <EntityTypeMapping TypeName="ProyectoModel.TAB_INSTRUCCIONES">
+              <MappingFragment StoreEntitySet="TAB_INSTRUCCIONES">
+                <ScalarProperty Name="ID_INSTRUCCIONES" ColumnName="ID_INSTRUCCIONES" />
+                <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+                <ScalarProperty Name="INSTRUCCIONES" ColumnName="INSTRUCCIONES" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TAB_RECETAS">
+            <EntityTypeMapping TypeName="ProyectoModel.TAB_RECETAS">
+              <MappingFragment StoreEntitySet="TAB_RECETAS">
+                <ScalarProperty Name="COD_RECETA" ColumnName="COD_RECETA" />
+                <ScalarProperty Name="NOM_RECETA" ColumnName="NOM_RECETA" />
+                <ScalarProperty Name="ID_CATEGORIA" ColumnName="ID_CATEGORIA" />
+                <ScalarProperty Name="DURACION" ColumnName="DURACION" />
+                <ScalarProperty Name="PORCIONES" ColumnName="PORCIONES" />
+                <ScalarProperty Name="ID_TAGS" ColumnName="ID_TAGS" />
+                <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+                <ScalarProperty Name="FECHA_MODIFICACION" ColumnName="FECHA_MODIFICACION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TAB_TAGS">
+            <EntityTypeMapping TypeName="ProyectoModel.TAB_TAGS">
+              <MappingFragment StoreEntitySet="TAB_TAGS">
+                <ScalarProperty Name="ID_TAGS" ColumnName="ID_TAGS" />
+                <ScalarProperty Name="TAGS" ColumnName="TAGS" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
